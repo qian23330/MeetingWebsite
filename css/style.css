@@ -1698,7 +1698,7 @@ slider
     max-width: 1170px;
     width: 100%;
     margin:0 auto;
-    min-height: 800px;
+    min-height: 1250px;
 }
 
 .slider-items .carousel-caption {
@@ -1760,11 +1760,11 @@ slider
     color: #fff;
     margin: 0;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .slider-items .carousel-caption p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 28px;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -1774,7 +1774,7 @@ slider
     text-transform: uppercase;
 }
 
-.slider-items .btn.btn-primary.:hover {
+.slider-items .btn.btn-primary:hover {
     background: #09AD8B;
     color: #fff;
 }
@@ -1804,7 +1804,7 @@ slider-media srceen
         padding: 0 70px;
     }
     .slider-items  .carousel-caption h2 {
-        font-size: 28px;
+        font-size: 48px;
     }
 }
 @media only screen and (max-width:768px) {
@@ -1812,13 +1812,13 @@ slider-media srceen
         min-height: 350px;
     }
     .slider-items  .carousel-caption h2 {
-        font-size: 24px;
+        font-size: 44px;
     }
 }
 @media only screen and (max-width: 767px) {
     
     .slider-items  .carousel-caption h2 {
-        font-size: 18px;
+        font-size: 38px;
     }
     .slider-items  .carousel-caption {
         padding: 0 50px;
@@ -2046,7 +2046,7 @@ welcome
 
 .edu_feature h3 {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 15px;
 }
 
@@ -2243,7 +2243,7 @@ coaching
 }
 
 .countdown-time .countdown > span .value {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 40px;
     width: 50px;
     height: 40px;
@@ -2257,7 +2257,7 @@ coaching
 
 .countdown-time .countdown > span b {
     display: block;
-    font-size: 0.857em;
+    font-size: 1em;
     text-transform: uppercase;
     line-height: 1em;
     color: #000;
@@ -2580,7 +2580,7 @@ event
 
 .event-block div span.event-time {
     color: #6c6c6c !important;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .event-block span.event-date {
