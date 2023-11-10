@@ -82,9 +82,10 @@ html {
 }
 
 body {
+    overflow-x: hidden; /* 防止水平滚动条出现 */
     margin: 0;
     letter-spacing: 0.5px;
-    font-family: 'Hind', sans-serif !important;
+    font-family: 'Times New Roman', sans-serif !important;
 }
 
 article,
@@ -526,6 +527,7 @@ html {
 }
 
 body {
+    overflow-x: hidden; /* 防止水平滚动条出现 */
     background: #fff;
     /* Fallback for when there is no custom background color defined. */
     -webkit-font-smoothing: antialiased;
@@ -1121,7 +1123,7 @@ header-search
 .header-search {
     float: right;
     padding: 15px 0;
-    margin-left: 50px;
+    margin-left: 80px;
     cursor: pointer;
     margin-top: 35px;
 }
@@ -1271,12 +1273,24 @@ main-navigation
     display: inline-block;
 }
 
+#main-navigation {
+    font-family: 'FontAwesome', sans-serif; /* 选择黑体字体，如果用户计算机上没有黑体，则使用sans-serif作为备选字体 */
+    font-weight: bold; /* 加粗字体 */
+    
+}
+
 
 #main-navigation ul {
+    height: 30px;
+    white-space: nowrap; /* 强制在一行显示 */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* 自动适应屏幕宽度 */
+    list-style: none; /* 移除列表项的默认样式 */
+    /* padding: 0;       移除默认内边距 */
     display: block;
     margin: 0;
     padding: 0;
-    width: 2000px;
+    width:fit-content;
     text-align: center;
 }
 
@@ -1384,9 +1398,11 @@ main-navigation
 }
 
 #main-navigation ul li a {
+    margin-top: 30px;
+    margin-right: 10px; /* 调整列表项之间的间距 */
     color: #333333;
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     padding: 15px 12px;
     position: relative;
