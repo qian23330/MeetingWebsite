@@ -3322,11 +3322,11 @@ course-page
 }
 
 .course-tab ul.nav-tabs > li.nav-item a.active,
-.course-tab ul.nav-tabs > li a:hover,{
+/* .course-tab ul.nav-tabs > li a:hover,{
     background-color: #03a9f4;
     color: #fff;
     border: none;
-}
+} */
 
 .course-tab-desc {
     margin-top: 20px;
