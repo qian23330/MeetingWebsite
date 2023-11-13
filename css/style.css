@@ -1695,7 +1695,7 @@ slider
 .slider-items {
   position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:contain;
   background-position: center center;
   min-height: 800px;
 }
@@ -1704,14 +1704,14 @@ slider
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0);
 }
 
 .slider-content{
     position: relative;
-    max-width: 1170px;
+    max-width: 1000px;
     width: 100%;
     margin:0 auto;
     min-height: 1250px;
