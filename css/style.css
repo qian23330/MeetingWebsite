@@ -85,7 +85,7 @@ body {
     overflow-x: hidden; /* 防止水平滚动条出现 */
     margin: 0;
     letter-spacing: 0.5px;
-    font-family: 'Times New Roman', sans-serif !important;
+    font-family: 'Arial', sans-serif !important;
 }
 
 article,
