@@ -1695,7 +1695,7 @@ slider
 .slider-items {
   position: relative;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:cover;
   background-position: center center;
   min-height: 800px;
 }
@@ -1711,10 +1711,10 @@ slider
 
 .slider-content{
     position: relative;
-    max-width: 1000px;
+    max-width: 1920px;
     width: 100%;
     margin:0 auto;
-    min-height: 1250px;
+    min-height: 1000px;
 }
 
 .slider-items .carousel-caption {
