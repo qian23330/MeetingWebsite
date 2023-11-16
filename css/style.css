@@ -1882,8 +1882,8 @@ slider-bottom
 
 .slide-bottom {
     background-color: #f6f7fb;
-    width: 100%;
-    float: left;
+    width:inherit;
+    float:none;
     -webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.20);
     -moz-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.20);
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.20);
@@ -1965,7 +1965,7 @@ slider-bottom
     padding: 20px 0;
 }
 
-.moder-apply p {
+.modern-apply p {
     font-size: 14px;
     font-style: italic;
     margin-bottom: 0
@@ -2514,11 +2514,17 @@ video
     width: 100%;
 }
 
+.new_container {
+    display: flex;
+    justify-content: center;
+}
+
 .video-bottom .video-bottom-inner {
-    background-color: #ffbd49;
+    background-color: #03a9f4;
     padding: 30px 20px;
     color: #fff;
     position: relative;
+    
 }
 
 .video-bottom .video-bottom-inner.first {
@@ -2541,8 +2547,13 @@ video
     font-weight: 600;
 }
 
+.new_responsive {
+    border-radius: 25px; /* 可以根据需要调整圆角的程度 */
+}
+
 .video-bottom .video-bottom-inner p {
     margin-bottom: 0;
+    text-align: center;
 }
 
 .video-bottom-icon {
@@ -3352,8 +3363,8 @@ course-page
 }
 
 .inner-page .title h2::after {
-    left: 0;
-    right: inherit;
+    left:0;
+    right:0;
 }
 
 .social-share a.btn {
@@ -3895,6 +3906,7 @@ contact-page
     border:1px solid #03a9f4;
     text-align: center;
     color: #ffffff;
+    margin-top: 20px;
 }
 
 .contact-info p i:hover {
@@ -3903,7 +3915,7 @@ contact-page
 }
 
 .contact-map {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .contact-page .btn-primary{
     margin-top:15px;
