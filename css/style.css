@@ -1536,7 +1536,7 @@ responsive-nav
 }
 
 .affix {
-    position: fixed;
+    /* position: fixed; */
     z-index: 99999;
     width: 100%;
     border-radius: 0;
